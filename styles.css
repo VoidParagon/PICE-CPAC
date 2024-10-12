@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+#scanner {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+#attendance-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#attendance-list li {
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the ID box */
+#id-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#id-photo {
+    width: 100px;
+    height: 120px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+#id-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+
+nav {
+    background-color: #222;
+}
+
+#nav_list {
+    display: flex;
+    list-style-type: none;
+}
+
+li.nav-item {
+    background-color: #fff;
+    margin: 10px;
+    height: 41px;
+}
+
+li.nav-item:hover{
+    background-color: #ccc;
+}
+
+
+
+
+
+
+#cards-section {
+    display: flex;
+    align-items: center;
+}
+
+div.card {
+    width: 100px;
+    height: 150px;
+    background-color: #000;
+    margin: 30px;
+
+}
+
+div.card_thumbnail {
+    width: 100px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.card_text {
+    color: #fff;
+}
+
+
+
+
+
+footer {
+    background-color: #555;
+    display: flex;
+}
+
+
+
+/* div {
+    background-color: #003d80;
+} */
+
+
+
+/* .carousel {
+    overflow: hidden;
+} */

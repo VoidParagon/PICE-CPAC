@@ -1,0 +1,44 @@
+
+.card {
+    transition: all 0.3s;
+    margin: 20px;
+}
+.card:hover {
+    transform: scale(1.15);
+}
+
+body {
+    padding-top: 65px;
+    height: 100vh;
+    /* padding-left: 10px ; */
+}
+
+/* .container{
+    background-color: aqua;
+} */
+
+#id-box {
+    background-color: #091057;
+    padding: 30px;
+}
+
+#id-info {
+    background-color: aliceblue;
+}
+
+#input-section {
+    background-color: #EC8305;
+}
+
+#upload-download-buttons {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
