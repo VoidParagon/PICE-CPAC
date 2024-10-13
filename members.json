@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "rfid": "123456789",
+      "name": "John Doe"
+    },
+    {
+      "rfid": "987654321",
+      "name": "Jane Smith"
+    },
+    {
+      "rfid": "112233445",
+      "name": "Michael Johnson"
+    },
+    {
+      "rfid": "556677889",
+      "name": "Emily Davis"
+    },
+    {
+      "rfid": "998877665",
+      "name": "Chris Brown"
+    }
+  ]
+}
