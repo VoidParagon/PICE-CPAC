@@ -1,0 +1,94 @@
+{
+  "news": [
+    {
+      "headline": "New Engineering Projects Launched",
+      "image": "project_thumbnail.jpg",
+      "summary": "The Civil Engineering Student Chapter has initiated projects focusing on infrastructure sustainability.",
+      "date": "2024-10-12",
+      "author": "John Doe",
+      "category": "Projects",
+      "link": "/news/project-launch"
+    },
+    {
+      "headline": "Guest Lecture: Future of Urban Design",
+      "image": "guest_lecture.jpg",
+      "summary": "Renowned architect Maria Santos shared insights on sustainable urban planning.",
+      "date": "2024-10-10",
+      "author": "Jane Smith",
+      "category": "Events",
+      "link": "/news/guest-lecture-urban-design"
+    },
+    {
+      "headline": "New Chapter Leadership Elected",
+      "image": "leadership_election.jpg",
+      "summary": "The annual elections concluded with Anna Cruz being elected as the new chapter president.",
+      "date": "2024-10-08",
+      "author": "Emily Davis",
+      "category": "Announcements",
+      "link": "/news/new-leadership-2024"
+    },
+    {
+      "headline": "Volunteering at Community Building Project",
+      "image": "volunteering_event.jpg",
+      "summary": "Students volunteered in building a community center in Barangay Mabini.",
+      "date": "2024-09-30",
+      "author": "Michael Johnson",
+      "category": "Community Service",
+      "link": "/news/volunteering-community-building"
+    },
+    {
+      "headline": "Civil Engineering Week Kicks Off",
+      "image": "ce_week.jpg",
+      "summary": "The week-long celebration of Civil Engineering Week starts with workshops and seminars.",
+      "date": "2024-09-25",
+      "author": "Chris Brown",
+      "category": "Events",
+      "link": "/news/ce-week-2024"
+    },
+    {
+      "headline": "Scholarship Opportunities for CE Students",
+      "image": "scholarship.jpg",
+      "summary": "New scholarships are now available for aspiring civil engineers. Application deadlines approaching soon.",
+      "date": "2024-09-20",
+      "author": "Anna Cruz",
+      "category": "Announcements",
+      "link": "/news/scholarship-opportunities-2024"
+    },
+    {
+      "headline": "Field Trip to the New Bridge Construction Site",
+      "image": "bridge_construction.jpg",
+      "summary": "Students had the opportunity to visit the construction site of the new highway bridge.",
+      "date": "2024-09-15",
+      "author": "John Doe",
+      "category": "Field Trips",
+      "link": "/news/bridge-construction-field-trip"
+    },
+    {
+      "headline": "Engineering Competition Winners Announced",
+      "image": "competition_winners.jpg",
+      "summary": "The Civil Engineering student team won the first prize at the regional engineering competition.",
+      "date": "2024-09-10",
+      "author": "Jane Smith",
+      "category": "Awards",
+      "link": "/news/engineering-competition-winners"
+    },
+    {
+      "headline": "Fundraising Event for Community Projects",
+      "image": "fundraising_event.jpg",
+      "summary": "A successful fundraising event was held to support ongoing community infrastructure projects.",
+      "date": "2024-09-05",
+      "author": "Emily Davis",
+      "category": "Fundraising",
+      "link": "/news/fundraising-community-projects"
+    },
+    {
+      "headline": "Technical Workshop: Bridge Design Fundamentals",
+      "image": "workshop_bridge_design.jpg",
+      "summary": "A technical workshop was conducted to explore the fundamentals of bridge design.",
+      "date": "2024-09-01",
+      "author": "Michael Johnson",
+      "category": "Workshops",
+      "link": "/news/workshop-bridge-design"
+    }
+  ]
+}
