@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles1.css"> -->
+
+</head>
+
+
+<body>
+
+    <form class="movie-form" method="POST">
+        <input name = "title" type="text" placeholder="Movie Title">
+        <input name = "year" type="text" placeholder="Year Released">
+        <input name = "genre" type="text" placeholder="Genre">
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+
+    <script>
+        
+        const formEl = document.querySelector('.movie-form');
+
+        formEl.addEventListener('submit', event => {
+            event.preventDefault();
+
+            const formData = new FormData(formEl);
+    
+            const result = Object.fromEntries(formData.entries());
+            const payload = JSON.stringify(result);
+
+            console.log([...formData])
+            console.log(payload);
+
+
+
+            fetch('http://localhost:3000/movies/', {
+                method: "POST",
+                body: payload,
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+             }).then(res => res.json())
+             .then(res => console.log(res));
+        });
+    </script>
+</body>
+</html>
