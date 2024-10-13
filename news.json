@@ -1,5 +1,4 @@
-{
-  "news": [
+[
     {
       "headline": "New Engineering Projects Launched",
       "image": "project_thumbnail.jpg",
@@ -90,5 +89,4 @@
       "category": "Workshops",
       "link": "/news/workshop-bridge-design"
     }
-  ]
-}
+]
